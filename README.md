@@ -88,3 +88,18 @@ Sachin Kumar
 - Portfolio: https://sachin-kolmint.github.io
 - LinkedIn: https://www.linkedin.com/in/sachin-dahiya-7709901b4/
 
+## Docker Hub Image
+
+Docker Hub Repository: https://hub.docker.com/r/kolmint/sachin-portfolio
+
+Pull the image:
+
+```bash
+docker pull kolmint/sachin-portfolio:v1
+```
+
+Run the container:
+
+```bash
+docker run -d --name portfolio-demo -p 8081:80 kolmint/sachin-portfolio:v1
+```
